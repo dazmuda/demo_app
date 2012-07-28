@@ -10,7 +10,7 @@ group :production do
 end
 
 group :developement do
-  gem 'sqlite3', '1.3.6'
+  #gem 'sqlite3', '1.3.6'
 end
 
 
@@ -26,7 +26,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails' 
 
 gem 'rb-readline'
 
